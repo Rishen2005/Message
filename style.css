@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(#d1c4e9, #b39ddb);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.gift-box, .wishes {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  color: #6a1b9a;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.gf-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px white;
+}
+
+.hidden {
+  display: none;
+}
+
+p {
+  font-size: 18px;
+}
