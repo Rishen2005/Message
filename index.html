@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Just Something Special</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <audio id="bgMusic" autoplay loop>
+    <source src="music/chill.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <div class="gift-box" id="giftBox">
+      <p>I made this for you.</p>
+      <button onclick="startWishes()">Tap to See</button>
+    </div>
+
+    <div class="wishes hidden" id="wishes">
+      <img src="images/gf1.jpg" alt="Someone Special" class="gf-img" />
+      <p id="message"></p>
+      <button onclick="nextMessage()" id="nextBtn">Next</button>
+      <button onclick="toggleMusic()" id="musicBtn">Pause Music</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
